@@ -1,0 +1,18 @@
+2026-03-02 22:43:59,595 [INFO] Loaded 1 affiliate link(s): ['shopify']
+2026-03-02 22:43:59,596 [INFO] ============================================================
+2026-03-02 22:43:59,596 [INFO] Smart AI Growth Hub — Content Pipeline Generator
+2026-03-02 22:43:59,597 [INFO] Run started: 2026-03-02T22:43:59.597157
+2026-03-02 22:43:59,597 [INFO] ============================================================
+2026-03-02 22:43:59,598 [INFO] Loaded 5 rows from C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\keywords\keywords.csv
+2026-03-02 22:43:59,599 [INFO] Skipping 'Best AI tools for Shopify beginners 2026' (Status=GENERATED)
+2026-03-02 22:43:59,614 [INFO] Skipping 'How to automate Shopify with AI step by step' (Status=GENERATED)
+2026-03-02 22:43:59,615 [INFO] Skipping 'Best AI tools for dropshipping product research' (Status=GENERATED)
+2026-03-02 22:43:59,615 [INFO] Skipping 'AI tools for ecommerce beginners under $50' (Status=GENERATED)
+2026-03-02 22:43:59,615 [INFO] Skipping 'How to start a Shopify store using AI' (Status=GENERATED)
+2026-03-02 22:43:59,617 [INFO] Updated CSV written to C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\keywords\keywords.csv
+2026-03-02 22:43:59,618 [INFO] ============================================================
+2026-03-02 22:43:59,618 [INFO] Run complete. Processed: 0 NEW | Generated: 5
+2026-03-02 22:43:59,618 [INFO] Blog HTML   → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\blog_html
+2026-03-02 22:43:59,619 [INFO] Pinterest   → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\pinterest_csv
+2026-03-02 22:43:59,619 [INFO] Log file    → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\logs\run_20260302_224359.log
+2026-03-02 22:43:59,619 [INFO] ============================================================

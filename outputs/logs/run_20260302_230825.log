@@ -1,0 +1,21 @@
+2026-03-02 23:08:25,051 [INFO] Loaded 1 affiliate link(s): ['shopify']
+2026-03-02 23:08:25,052 [INFO] ============================================================
+2026-03-02 23:08:25,052 [INFO] Smart AI Growth Hub — Content Pipeline Generator
+2026-03-02 23:08:25,053 [INFO] Run started: 2026-03-02T23:08:25.053283
+2026-03-02 23:08:25,053 [INFO] ============================================================
+2026-03-02 23:08:25,055 [INFO] Loaded 5 rows from C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\keywords\keywords.csv
+2026-03-02 23:08:25,055 [INFO] Processing: 'Best AI tools for Shopify beginners 2026'
+2026-03-02 23:08:25,082 [INFO] HTML saved to C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\blog_html\7-best-ai-tools-for-shopify-beginners-in-2026-tested-ranked.html (~1673 words in raw HTML)
+2026-03-02 23:08:25,084 [INFO] Pinterest CSV written to C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\pinterest_csv\7-best-ai-tools-for-shopify-beginners-in-2026-tested-ranked_pins.csv
+2026-03-02 23:08:25,084 [INFO] Done: 'Best AI tools for Shopify beginners 2026' → 7-best-ai-tools-for-shopify-beginners-in-2026-tested-ranked
+2026-03-02 23:08:25,084 [INFO] Skipping 'How to automate Shopify with AI step by step' (Status=GENERATED)
+2026-03-02 23:08:25,085 [INFO] Skipping 'Best AI tools for dropshipping product research' (Status=GENERATED)
+2026-03-02 23:08:25,085 [INFO] Skipping 'AI tools for ecommerce beginners under $50' (Status=GENERATED)
+2026-03-02 23:08:25,085 [INFO] Skipping 'How to start a Shopify store using AI' (Status=GENERATED)
+2026-03-02 23:08:25,087 [INFO] Updated CSV written to C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\keywords\keywords.csv
+2026-03-02 23:08:25,087 [INFO] ============================================================
+2026-03-02 23:08:25,087 [INFO] Run complete. Processed: 1 NEW | Generated: 5
+2026-03-02 23:08:25,088 [INFO] Blog HTML   → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\blog_html
+2026-03-02 23:08:25,088 [INFO] Pinterest   → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\pinterest_csv
+2026-03-02 23:08:25,088 [INFO] Log file    → C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\outputs\logs\run_20260302_230825.log
+2026-03-02 23:08:25,088 [INFO] ============================================================

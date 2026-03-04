@@ -1,0 +1,11 @@
+2026-03-04 16:36:18,383 [INFO] Loaded 1 affiliate link(s): ['shopify']
+2026-03-04 16:36:18,384 [INFO] ============================================================
+2026-03-04 16:36:18,384 [INFO] Smart AI Growth Hub — Content Pipeline Generator
+2026-03-04 16:36:18,384 [INFO] Run started: 2026-03-04T16:36:18.384642
+2026-03-04 16:36:18,384 [INFO] ============================================================
+2026-03-04 16:36:18,385 [INFO] Loaded 6 rows from C:\Users\ABHVe\claudeapp\smart-ai-growth-hub\keywords\keywords.csv
+2026-03-04 16:36:18,385 [INFO] Skipping 'Best AI tools for Shopify beginners 2026' (Status=GENERATED)
+2026-03-04 16:36:18,386 [INFO] Skipping 'How to automate Shopify with AI step by step' (Status=GENERATED)
+2026-03-04 16:36:18,386 [INFO] Skipping 'Best AI tools for dropshipping product research' (Status=GENERATED)
+2026-03-04 16:36:18,386 [INFO] Skipping 'AI tools for ecommerce beginners under $50' (Status=GENERATED)
+2026-03-04 16:36:18,386 [INFO] Skipping 'How to start a Shopify store using AI' (Status=GENERATED)
