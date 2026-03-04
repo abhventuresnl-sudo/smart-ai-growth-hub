@@ -1,3 +1,31 @@
+Write a detailed SEO blog post of 1200-2000 words.
+
+
+
+Structure:
+
+- Introduction
+
+- Who this guide is for
+
+- Quick recommendations
+
+- Detailed breakdown of each tool
+
+- Comparison table
+
+- Alternatives
+
+- FAQ
+
+- Conclusion
+
+
+
+Use clear headings (H2/H3) and short paragraphs.
+
+Optimize for SEO but keep it natural and readable.
+
 import csv
 
 from pathlib import Path
