@@ -101,3 +101,81 @@ with open(keywords_file, encoding="utf-8") as f:
         with open(file, "w", encoding="utf-8") as out:
 
             out.write(blog_content)
+
+            from pathlib import Path
+
+
+
+site_folder = Path("site")
+
+
+
+def generate_homepage():
+
+    html_files = [f for f in site_folder.glob("*.html") if f.name != "index.html"]
+
+
+
+    links = ""
+
+    for file in html_files:
+
+        title = file.stem.replace("-", " ").title()
+
+        links += f'<li><a href="{file.name}">{title}</a></li>\n'
+
+
+
+    index_html = f"""
+
+<html>
+
+<head>
+
+<title>Smart AI Growth Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+<h1>Smart AI Growth Hub</h1>
+
+
+
+<p>Guides about AI tools, ecommerce automation and side hustles.</p>
+
+
+
+<h2>Latest Guides</h2>
+
+
+
+<ul>
+
+{links}
+
+</ul>
+
+
+
+</body>
+
+</html>
+
+"""
+
+
+
+    with open(site_folder / "index.html", "w", encoding="utf-8") as f:
+
+        f.write(index_html)
+
+
+
+generate_homepage()
