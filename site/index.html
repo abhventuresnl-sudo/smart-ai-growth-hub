@@ -1,90 +1,31 @@
-<link rel="stylesheet" href="/style.css">
-<html>
-<head>
-<title>Smart AI Growth Hub</title>
-</head>
-
-<body>
-
-<h1>Smart AI Growth Hub</h1>
-
-<p>AI tools, ecommerce automation and growth guides.</p>
-
-</body>
-</html>from pathlib import Path
-
-
-
-site_folder = Path("site")
-
-
-
-def generate_homepage():
-
-    html_files = [f for f in site_folder.glob("*.html") if f.name != "index.html"]
-
-
-
-    links = ""
-
-    for file in html_files:
-
-        title = file.stem.replace("-", " ").title()
-
-        links += f'<li><a href="{file.name}">{title}</a></li>\n'
-
-
-
-    index_html = f"""
 
 <html>
-
 <head>
-
-<title>Smart AI Growth Hub</title>
-
 <link rel="stylesheet" href="style.css">
-
+<title>Smart AI Growth Hub</title>
 </head>
-
-
 
 <body>
 
-
-
 <h1>Smart AI Growth Hub</h1>
-
-
-
-<p>Guides about AI tools, ecommerce automation and side hustles.</p>
-
-
+<p>AI tools, ecommerce automation and growth guides.</p>
 
 <h2>Latest Guides</h2>
 
-
-
 <ul>
-
-{links}
+<li><a href="6-best-ai-tools-for-dropshipping-product-research-in-2026.html">6 Best Ai Tools For Dropshipping Product Research In 2026</a></li>
+<li><a href="7-best-ai-tools-for-shopify-beginners-in-2026-tested-ranked.html">7 Best Ai Tools For Shopify Beginners In 2026 Tested Ranked</a></li>
+<li><a href="AI-tools-for-ecommerce-beginners-under-$50.html">Ai Tools For Ecommerce Beginners Under $50</a></li>
+<li><a href="Best-AI-tools-for-dropshipping-product-research.html">Best Ai Tools For Dropshipping Product Research</a></li>
+<li><a href="best-ai-tools-for-ecommerce-beginners-under-50month-2026-edition.html">Best Ai Tools For Ecommerce Beginners Under 50Month 2026 Edition</a></li>
+<li><a href="Best-AI-tools-for-Shopify-beginners-2026.html">Best Ai Tools For Shopify Beginners 2026</a></li>
+<li><a href="How-to-automate-Shopify-with-AI-step-by-step.html">How To Automate Shopify With Ai Step By Step</a></li>
+<li><a href="how-to-automate-your-shopify-store-with-ai-step-by-step-for-beginners.html">How To Automate Your Shopify Store With Ai Step By Step For Beginners</a></li>
+<li><a href="how-to-start-a-shopify-store-using-ai-beginners-guide-for-2026.html">How To Start A Shopify Store Using Ai Beginners Guide For 2026</a></li>
+<li><a href="How-to-start-a-Shopify-store-using-AI.html">How To Start A Shopify Store Using Ai</a></li>
+<li><a href="Keyword.html">Keyword</a></li>
 
 </ul>
 
-
-
 </body>
-
 </html>
-
-"""
-
-
-
-    with open(site_folder / "index.html", "w", encoding="utf-8") as f:
-
-        f.write(index_html)
-
-
-
-generate_homepage()
