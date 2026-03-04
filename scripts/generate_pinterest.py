@@ -1,3 +1,9 @@
+BASE_URL = "https://abhventuresnl-sudo.github.io/smart-ai-growth-hub/site/"
+
+En waar je de URL schrijft, zorg dat het wordt:
+
+url = f"{BASE_URL}{blog.name}"
+
 from pathlib import Path
 
 

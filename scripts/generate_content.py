@@ -948,33 +948,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-Write a detailed SEO blog post of 1200-2000 words.
 
-
-
-Structure:
-
-- Introduction
-
-- Who this guide is for
-
-- Quick recommendations
-
-- Detailed breakdown of each tool
-
-- Comparison table
-
-- Alternatives
-
-- FAQ
-
-- Conclusion
-
-
-
-Use clear headings (H2/H3) and short paragraphs.
-
-Optimize for SEO but keep it natural and readable.
 
 
 from pathlib import Path
@@ -1054,3 +1028,39 @@ def generate_homepage():
 
 
 generate_homepage()
+
+from pathlib import Path
+
+site_folder = Path("site")
+index_file = site_folder / "index.html"
+
+blog_links = ""
+
+for blog in site_folder.glob("*.html"):
+    if blog.name != "index.html":
+        title = blog.stem.replace("-", " ").title()
+        blog_links += f'<li><a href="{blog.name}">{title}</a></li>\n'
+
+index_content = f"""
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Smart AI Growth Hub</title>
+</head>
+
+<body>
+
+<h1>Smart AI Growth Hub</h1>
+<p>AI tools, ecommerce automation and growth guides.</p>
+
+<h2>Latest Guides</h2>
+
+<ul>
+{blog_links}
+</ul>
+
+</body>
+</html>
+"""
+
+index_file.write_text(index_content)
