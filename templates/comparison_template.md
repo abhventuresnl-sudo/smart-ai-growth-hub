@@ -1,3 +1,9 @@
+<html>
+<head>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
 # {{SEO_TITLE}}
 
 <!-- AFFILIATE_DISCLOSURE -->

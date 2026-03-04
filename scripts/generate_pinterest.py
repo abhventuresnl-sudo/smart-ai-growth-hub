@@ -52,4 +52,5 @@ Learn how to use AI tools, automation and smart strategies to grow faster.
 
 with open(csv_file, "a", encoding="utf-8") as f:
     for pin_title in pin_titles:
+        url = f"abhventuresnl-sudo.github.io/smart-ai-growth-hub/{blog.name}"
         f.write(f"{pin_title},{pin_description},{blog.name}\n")
